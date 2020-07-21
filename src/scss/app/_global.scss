@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+a {
+    text-decoration: none !important;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    outline: 0px;
+}
+
+html {
+    position: relative;
+    overflow-x: hidden;
+}
+
+body {
+    position: relative;
+    background: #FFF;
+    overflow-x: hidden;
+}
+
+header,
+footer,
+section {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+/*Titulos*/
+
+/*Parrafos*/
+
+/*Botones*/
