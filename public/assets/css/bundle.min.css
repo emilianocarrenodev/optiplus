@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap);
 @charset "UTF-8";
 
 /*!
@@ -12663,7 +12663,8 @@ span {
       scroll-snap-type: y mandatory; }
 
 * {
-  font-family: 'Lato', sans-serif;
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 20px;
   box-shadow: none !important;
@@ -12680,7 +12681,7 @@ html {
 
 body {
   position: relative;
-  background: #FFF;
+  background: blue;
   overflow-x: hidden; }
 
 header,
@@ -12693,6 +12694,148 @@ section {
 /*Titulos*/
 /*Parrafos*/
 /*Botones*/
+header {
+  width: 100%;
+  height: auto;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  border-bottom: 8px solid #FF8A26;
+  background: #00379E;
+  z-index: 1; }
+  @media only screen and (min-width: 991px) and (max-width: 1199px) {
+    header {
+      height: 150px;
+      border-bottom: none;
+      background: transparent url("../img/bg-header.png") top left/100% 100% no-repeat; } }
+  @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    header {
+      height: 150px;
+      border-bottom: none;
+      background: transparent url("../img/bg-header.png") top left/100% 100% no-repeat; } }
+  @media only screen and (min-width: 1400px) {
+    header {
+      height: 150px;
+      border-bottom: none;
+      background: transparent url("../img/bg-header.png") top left/100% 100% no-repeat; } }
+  header .navbar {
+    padding: 0px;
+    background-color: transparent !important; }
+    @media only screen and (max-width: 479px) {
+      header .navbar {
+        padding: 10px 15px; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      header .navbar {
+        padding: 10px 15px; } }
+    @media only screen and (min-width: 768px) and (max-width: 849px) {
+      header .navbar {
+        padding: 10px 15px; } }
+    @media only screen and (min-width: 850px) and (max-width: 990px) {
+      header .navbar {
+        padding: 10px 15px; } }
+    header .navbar .navbar-brand {
+      padding: 0px; }
+    header .navbar .navbar-toggler {
+      background-color: #FFF; }
+    @media only screen and (max-width: 479px) {
+      header .navbar .navbar-collapse {
+        padding-top: 5px; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      header .navbar .navbar-collapse {
+        padding-top: 5px; } }
+    @media only screen and (min-width: 768px) and (max-width: 849px) {
+      header .navbar .navbar-collapse {
+        padding-top: 5px; } }
+    @media only screen and (min-width: 850px) and (max-width: 990px) {
+      header .navbar .navbar-collapse {
+        padding-top: 5px; } }
+    header .navbar .navbar-collapse .navbar-nav .nav-item {
+      margin-right: 80px; }
+      @media only screen and (max-width: 479px) {
+        header .navbar .navbar-collapse .navbar-nav .nav-item {
+          margin-right: 0px; } }
+      @media only screen and (min-width: 480px) and (max-width: 767px) {
+        header .navbar .navbar-collapse .navbar-nav .nav-item {
+          margin-right: 0px; } }
+      @media only screen and (min-width: 768px) and (max-width: 849px) {
+        header .navbar .navbar-collapse .navbar-nav .nav-item {
+          margin-right: 0px; } }
+      @media only screen and (min-width: 850px) and (max-width: 990px) {
+        header .navbar .navbar-collapse .navbar-nav .nav-item {
+          margin-right: 0px; } }
+      @media only screen and (min-width: 991px) and (max-width: 1199px) {
+        header .navbar .navbar-collapse .navbar-nav .nav-item {
+          margin-right: 60px; } }
+      header .navbar .navbar-collapse .navbar-nav .nav-item:last-child {
+        margin-right: 0px; }
+      header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+        padding: 12px 0px 0px 0px;
+        font-size: 18px;
+        color: #FFF; }
+        @media only screen and (max-width: 479px) {
+          header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+            padding: 5px 0px; } }
+        @media only screen and (min-width: 480px) and (max-width: 767px) {
+          header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+            padding: 5px 0px; } }
+        @media only screen and (min-width: 768px) and (max-width: 849px) {
+          header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+            padding: 5px 0px; } }
+        @media only screen and (min-width: 850px) and (max-width: 990px) {
+          header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+            padding: 5px 0px; } }
+        header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+          color: #FF8A26; }
+
+footer {
+  background: transparent url("../img/bg-footer.png") top center/100% 100% no-repeat; }
+  footer h3 {
+    color: #FFF; }
+  footer p {
+    color: #FFF; }
+  footer ul {
+    list-style: none;
+    padding-left: 0px; }
+    footer ul li {
+      color: #FFF; }
+      footer ul li a {
+        color: #FFF; }
+  footer .form-group {
+    margin-bottom: 25px; }
+    footer .form-group .form-control {
+      height: auto;
+      border-radius: 0px; }
+  footer .btn-primary {
+    border: none;
+    background-color: #FF8A26;
+    border-radius: 0px; }
+
+.block-banner-main {
+  height: 300px;
+  margin-top: 46px;
+  background-color: #FFF;
+  background-size: auto auto, auto 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center center, top left;
+  background-image: url("../img/logo.png"), url("../img/img-banner.png"); }
+  @media only screen and (max-width: 479px) {
+    .block-banner-main {
+      height: 200px;
+      margin-top: 69px;
+      background: #FFF url("../img/logo.png") center center/auto auto no-repeat; } }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .block-banner-main {
+      height: 200px;
+      margin-top: 69px;
+      background: #FFF url("../img/logo.png") center center/auto auto no-repeat; } }
+  @media only screen and (min-width: 768px) and (max-width: 849px) {
+    .block-banner-main {
+      height: 200px;
+      margin-top: 69px; } }
+  @media only screen and (min-width: 850px) and (max-width: 990px) {
+    .block-banner-main {
+      height: 200px;
+      margin-top: 69px; } }
 
 
 /*# sourceMappingURL=bundle.min.css.map*/

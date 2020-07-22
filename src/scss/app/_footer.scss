@@ -1,1 +1,43 @@
-footer {}
+footer {
+    background: transparent url('../img/bg-footer.png') top center / 100% 100% no-repeat;
+
+    h3 {
+        color: #FFF;
+    }
+
+    p {
+        color: #FFF;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 0px;
+
+        li {
+            color: #FFF;
+
+            a {
+                color: #FFF;
+            }
+        }
+    }
+
+    .form-group {
+        margin-bottom: 25px;
+
+        .form-control {
+            height: auto;
+            -webkit-border-radius: 0px;
+            -moz-border-radius: 0px;
+            border-radius: 0px;
+        }
+    }
+
+    .btn-primary {
+        border: none;
+        background-color: #FF8A26;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 0px;
+    }
+}
