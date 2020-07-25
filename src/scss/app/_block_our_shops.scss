@@ -1,0 +1,174 @@
+.block-our-shops {
+    padding: 155px 0px 50px 0px;
+    background: #FF8A26 url('../img/bg-block-our-shops.png') top left / cover no-repeat;
+
+    // Breakpoints
+    @include respond-to($phone) {
+        padding: 60px 0px;
+    }
+
+    @include respond-to($phone-tablet) {
+        padding: 60px 0px;
+    }
+
+    @include respond-to($tablet-medium) {
+        padding: 60px 0px;
+    }
+
+    @include respond-to($medium-large) {
+        padding: 60px 0px;
+    }
+
+    .container-list {
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+        background: transparent url('../img/bg-line.png') top center / 100% auto no-repeat;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        // Breakpoints
+        @include respond-to($phone) {
+            background: transparent;
+            flex-direction: column;
+        }
+
+        @include respond-to($phone-tablet) {
+            background: transparent;
+            flex-direction: column;
+        }
+
+        @include respond-to($tablet-medium) {
+            background: transparent;
+            flex-direction: column;
+        }
+
+        @include respond-to($medium-large) {
+            background: transparent;
+            flex-direction: column;
+        }
+
+        .img-fluid {
+            margin: -75px 100px 65px 100px;
+
+            // Breakpoints
+            @include respond-to($phone) {
+                margin: 0px 0px 20px 0px;
+            }
+
+            @include respond-to($phone-tablet) {
+                margin: 0px 0px 20px 0px;
+            }
+
+            @include respond-to($tablet-medium) {
+                margin: 0px 0px 20px 0px;
+            }
+
+            @include respond-to($medium-large) {
+                margin: 0px 0px 20px 0px;
+            }
+        }
+
+        label {
+            width: 210px;
+            margin-top: -150px;
+            text-align: right;
+            font-size: 22px;
+            color: #FFF;
+
+            // Breakpoints
+            @include respond-to($phone) {
+                width: 100%;
+                margin-top: 0px;
+                text-align: center;
+            }
+
+            @include respond-to($phone-tablet) {
+                width: 100%;
+                margin-top: 0px;
+                text-align: center;
+            }
+
+            @include respond-to($tablet-medium) {
+                width: 100%;
+                margin-top: 0px;
+                text-align: center;
+            }
+
+            @include respond-to($medium-large) {
+                width: 100%;
+                margin-top: 0px;
+                text-align: center;
+            }
+
+            &.text-small {
+                width: 150px;
+                margin: -50px 130px 0px -80px;
+                text-align: center;
+                line-height: 20px;
+                font-size: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                align-items: flex-end;
+
+                // Breakpoints
+                @include respond-to($phone) {
+                    width: 100%;
+                    margin: 0px;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                @include respond-to($phone-tablet) {
+                    width: 100%;
+                    margin: 0px;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                @include respond-to($tablet-medium) {
+                    width: 100%;
+                    margin: 0px;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                @include respond-to($medium-large) {
+                    width: 100%;
+                    margin: 0px;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                a {
+                    width: 32px;
+                    height: 32px;
+                    margin-top: 5px;
+                    background-color: #FFF;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    border-radius: 50%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+
+                    .lni {
+                        font-weight: 700;
+                        color: #FF8A26;
+                    }
+
+                    &:hover {
+
+                        .lni {
+                            color: #00379E;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

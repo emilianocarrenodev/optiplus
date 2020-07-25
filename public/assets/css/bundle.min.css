@@ -12993,7 +12993,7 @@ footer {
 
 .block-about-us {
   padding: 80px 0px 40px 0px;
-  background-color: #FF8A26; }
+  background: #FF8A26 url("../img/image-block-about-us.png") top left/cover no-repeat; }
   @media only screen and (max-width: 479px) {
     .block-about-us {
       padding: 60px 0px; } }
@@ -13062,6 +13062,136 @@ footer {
           border-right: 6px solid #0F4C92; } }
     .block-about-us .container-blue p {
       margin-bottom: 0px; }
+
+.block-our-shops {
+  padding: 155px 0px 50px 0px;
+  background: #FF8A26 url("../img/bg-block-our-shops.png") top left/cover no-repeat; }
+  @media only screen and (max-width: 479px) {
+    .block-our-shops {
+      padding: 60px 0px; } }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .block-our-shops {
+      padding: 60px 0px; } }
+  @media only screen and (min-width: 768px) and (max-width: 849px) {
+    .block-our-shops {
+      padding: 60px 0px; } }
+  @media only screen and (min-width: 850px) and (max-width: 990px) {
+    .block-our-shops {
+      padding: 60px 0px; } }
+  .block-our-shops .container-list {
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+    background: transparent url("../img/bg-line.png") top center/100% auto no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    @media only screen and (max-width: 479px) {
+      .block-our-shops .container-list {
+        background: transparent;
+        flex-direction: column; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      .block-our-shops .container-list {
+        background: transparent;
+        flex-direction: column; } }
+    @media only screen and (min-width: 768px) and (max-width: 849px) {
+      .block-our-shops .container-list {
+        background: transparent;
+        flex-direction: column; } }
+    @media only screen and (min-width: 850px) and (max-width: 990px) {
+      .block-our-shops .container-list {
+        background: transparent;
+        flex-direction: column; } }
+    .block-our-shops .container-list .img-fluid {
+      margin: -75px 100px 65px 100px; }
+      @media only screen and (max-width: 479px) {
+        .block-our-shops .container-list .img-fluid {
+          margin: 0px 0px 20px 0px; } }
+      @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .block-our-shops .container-list .img-fluid {
+          margin: 0px 0px 20px 0px; } }
+      @media only screen and (min-width: 768px) and (max-width: 849px) {
+        .block-our-shops .container-list .img-fluid {
+          margin: 0px 0px 20px 0px; } }
+      @media only screen and (min-width: 850px) and (max-width: 990px) {
+        .block-our-shops .container-list .img-fluid {
+          margin: 0px 0px 20px 0px; } }
+    .block-our-shops .container-list label {
+      width: 210px;
+      margin-top: -150px;
+      text-align: right;
+      font-size: 22px;
+      color: #FFF; }
+      @media only screen and (max-width: 479px) {
+        .block-our-shops .container-list label {
+          width: 100%;
+          margin-top: 0px;
+          text-align: center; } }
+      @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .block-our-shops .container-list label {
+          width: 100%;
+          margin-top: 0px;
+          text-align: center; } }
+      @media only screen and (min-width: 768px) and (max-width: 849px) {
+        .block-our-shops .container-list label {
+          width: 100%;
+          margin-top: 0px;
+          text-align: center; } }
+      @media only screen and (min-width: 850px) and (max-width: 990px) {
+        .block-our-shops .container-list label {
+          width: 100%;
+          margin-top: 0px;
+          text-align: center; } }
+      .block-our-shops .container-list label.text-small {
+        width: 150px;
+        margin: -50px 130px 0px -80px;
+        text-align: center;
+        line-height: 20px;
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end; }
+        @media only screen and (max-width: 479px) {
+          .block-our-shops .container-list label.text-small {
+            width: 100%;
+            margin: 0px;
+            justify-content: center;
+            align-items: center; } }
+        @media only screen and (min-width: 480px) and (max-width: 767px) {
+          .block-our-shops .container-list label.text-small {
+            width: 100%;
+            margin: 0px;
+            justify-content: center;
+            align-items: center; } }
+        @media only screen and (min-width: 768px) and (max-width: 849px) {
+          .block-our-shops .container-list label.text-small {
+            width: 100%;
+            margin: 0px;
+            justify-content: center;
+            align-items: center; } }
+        @media only screen and (min-width: 850px) and (max-width: 990px) {
+          .block-our-shops .container-list label.text-small {
+            width: 100%;
+            margin: 0px;
+            justify-content: center;
+            align-items: center; } }
+        .block-our-shops .container-list label.text-small a {
+          width: 32px;
+          height: 32px;
+          margin-top: 5px;
+          background-color: #FFF;
+          border-radius: 50%;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center; }
+          .block-our-shops .container-list label.text-small a .lni {
+            font-weight: 700;
+            color: #FF8A26; }
+          .block-our-shops .container-list label.text-small a:hover .lni {
+            color: #00379E; }
 
 
 /*# sourceMappingURL=bundle.min.css.map*/

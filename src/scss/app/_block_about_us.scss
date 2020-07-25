@@ -1,6 +1,6 @@
 .block-about-us {
     padding: 80px 0px 40px 0px;
-    background-color: #FF8A26;
+    background: #FF8A26 url('../img/image-block-about-us.png') top left / cover no-repeat;
 
     // Breakpoints
     @include respond-to($phone) {
