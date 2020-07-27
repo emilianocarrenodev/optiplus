@@ -12681,8 +12681,8 @@ html {
 
 body {
   position: relative;
-  background: red;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  background: #FFF; }
 
 header,
 footer,
@@ -12788,25 +12788,30 @@ header {
           color: #FF8A26; }
 
 footer {
+  margin-top: -150px;
   padding: 80px 0px 70px 0px;
   background: transparent url("../img/bg-footer.png") top center/100% 100% no-repeat; }
   @media only screen and (max-width: 479px) {
     footer {
+      margin-top: 30px;
       padding: 60px 0px;
       border-top: 8px solid #FF8A26;
       background: #020A56; } }
   @media only screen and (min-width: 480px) and (max-width: 767px) {
     footer {
+      margin-top: 30px;
       padding: 60px 0px;
       border-top: 8px solid #FF8A26;
       background: #020A56; } }
   @media only screen and (min-width: 768px) and (max-width: 849px) {
     footer {
+      margin-top: 30px;
       padding: 60px 0px;
       border-top: 8px solid #FF8A26;
       background: #020A56; } }
   @media only screen and (min-width: 850px) and (max-width: 990px) {
     footer {
+      margin-top: 30px;
       padding: 60px 0px;
       border-top: 8px solid #FF8A26;
       background: #020A56; } }
@@ -13192,6 +13197,113 @@ footer {
             color: #FF8A26; }
           .block-our-shops .container-list label.text-small a:hover .lni {
             color: #00379E; }
+
+@media only screen and (max-width: 479px) {
+  .block-latest-post {
+    padding-top: 30px; } }
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .block-latest-post {
+    padding-top: 30px; } }
+
+@media only screen and (min-width: 768px) and (max-width: 849px) {
+  .block-latest-post {
+    padding-top: 30px; } }
+
+@media only screen and (min-width: 850px) and (max-width: 990px) {
+  .block-latest-post {
+    padding-top: 30px; } }
+
+.block-latest-post h2 {
+  margin: 0px;
+  padding: 25px 0px;
+  text-align: center;
+  font-size: 24px;
+  color: #003da6; }
+  .block-latest-post h2::after {
+    width: 95%;
+    height: 1px;
+    top: -12px;
+    left: 2.5%;
+    float: left;
+    position: relative;
+    background-color: #00379E;
+    content: '';
+    z-index: 0; }
+    @media only screen and (max-width: 479px) {
+      .block-latest-post h2::after {
+        width: 100%;
+        left: 0px; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      .block-latest-post h2::after {
+        width: 100%;
+        left: 0px; } }
+    @media only screen and (min-width: 768px) and (max-width: 849px) {
+      .block-latest-post h2::after {
+        width: 100%;
+        left: 0px; } }
+    @media only screen and (min-width: 850px) and (max-width: 990px) {
+      .block-latest-post h2::after {
+        width: 100%;
+        left: 0px; } }
+  .block-latest-post h2 span {
+    position: relative;
+    border: 1px solid #003da6;
+    background-color: #FFF;
+    z-index: 1; }
+
+.block-latest-post h3 {
+  margin: 0px;
+  text-align: center;
+  font-size: 22px;
+  color: #003da6; }
+
+.block-latest-post .container-image {
+  margin-top: -79px;
+  padding: 80px 0px 200px 0px;
+  position: relative;
+  background: transparent url("../img/bg-block-latest-post.png") top left/1px 1px repeat;
+  z-index: 2; }
+  @media only screen and (max-width: 479px) {
+    .block-latest-post .container-image {
+      margin-top: 0px;
+      margin-bottom: 30px;
+      padding: 0px 0px 40px 0px; } }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .block-latest-post .container-image {
+      margin-top: 0px;
+      margin-bottom: 30px;
+      padding: 0px 0px 40px 0px; } }
+  @media only screen and (min-width: 768px) and (max-width: 849px) {
+    .block-latest-post .container-image {
+      margin-top: 0px;
+      margin-bottom: 30px;
+      padding: 0px 0px 40px 0px; } }
+  @media only screen and (min-width: 850px) and (max-width: 990px) {
+    .block-latest-post .container-image {
+      margin-top: 0px;
+      margin-bottom: 30px;
+      padding: 0px 0px 40px 0px; } }
+  .block-latest-post .container-image .bg-image {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 40px;
+    background-color: #FFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+    @media only screen and (max-width: 479px) {
+      .block-latest-post .container-image .bg-image {
+        height: 300px; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      .block-latest-post .container-image .bg-image {
+        height: 300px; } }
+    @media only screen and (min-width: 768px) and (max-width: 849px) {
+      .block-latest-post .container-image .bg-image {
+        height: 300px; } }
+    @media only screen and (min-width: 850px) and (max-width: 990px) {
+      .block-latest-post .container-image .bg-image {
+        height: 300px; } }
 
 
 /*# sourceMappingURL=bundle.min.css.map*/
