@@ -13198,6 +13198,130 @@ footer {
           .block-our-shops .container-list label.text-small a:hover .lni {
             color: #00379E; }
 
+.block-our-shops-main {
+  padding: 40px 0px;
+  background: #FF8A26 url("../img/bg-block-our-shops.png") top left/cover no-repeat; }
+  .block-our-shops-main .container-title {
+    padding: 0px 15px; }
+    .block-our-shops-main .container-title h2 {
+      margin: 0px;
+      text-align: center;
+      letter-spacing: 10px;
+      font-weight: 700;
+      font-size: 30px;
+      color: #ff8a26; }
+      @media only screen and (max-width: 479px) {
+        .block-our-shops-main .container-title h2 {
+          margin-bottom: 30px;
+          color: #FFF; } }
+      @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .block-our-shops-main .container-title h2 {
+          margin-bottom: 30px;
+          color: #FFF; } }
+      @media only screen and (min-width: 768px) and (max-width: 849px) {
+        .block-our-shops-main .container-title h2 {
+          margin-bottom: 30px;
+          color: #FFF; } }
+      @media only screen and (min-width: 850px) and (max-width: 990px) {
+        .block-our-shops-main .container-title h2 {
+          margin-bottom: 30px;
+          color: #FFF; } }
+    .block-our-shops-main .container-title a {
+      width: 270px;
+      padding: 15px;
+      text-align: center;
+      color: #FFF;
+      background-color: #ff8a26;
+      border-radius: 50px; }
+      .block-our-shops-main .container-title a:hover {
+        color: #ff8a26;
+        background-color: #FFF; }
+  .block-our-shops-main .container-list-image {
+    width: 100%;
+    padding: 0px 15px 40px 15px;
+    background: transparent url("../img/bg-line.png") top center/100% auto no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    @media only screen and (max-width: 479px) {
+      .block-our-shops-main .container-list-image {
+        margin-top: 40px;
+        padding-bottom: 35px;
+        background: transparent; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      .block-our-shops-main .container-list-image {
+        margin-top: 40px;
+        padding-bottom: 35px;
+        background: transparent; } }
+    @media only screen and (min-width: 768px) and (max-width: 849px) {
+      .block-our-shops-main .container-list-image {
+        margin-top: 40px;
+        padding-bottom: 35px;
+        background: transparent; } }
+    @media only screen and (min-width: 850px) and (max-width: 990px) {
+      .block-our-shops-main .container-list-image {
+        margin-top: 40px;
+        padding-bottom: 35px;
+        background: transparent; } }
+    .block-our-shops-main .container-list-image .img-fluid {
+      margin: -75px 0px 0px 0px; }
+      @media only screen and (max-width: 479px) {
+        .block-our-shops-main .container-list-image .img-fluid {
+          margin: 0px; } }
+      @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .block-our-shops-main .container-list-image .img-fluid {
+          margin: 0px; } }
+      @media only screen and (min-width: 768px) and (max-width: 849px) {
+        .block-our-shops-main .container-list-image .img-fluid {
+          margin: 0px; } }
+      @media only screen and (min-width: 850px) and (max-width: 990px) {
+        .block-our-shops-main .container-list-image .img-fluid {
+          margin: 0px; } }
+  .block-our-shops-main .container-list {
+    width: 100%;
+    padding: 20px 15px 15px 15px;
+    text-align: center;
+    background: transparent url("../img/bg-line.png") top center/100% auto no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .block-our-shops-main .container-list.first-item {
+      padding-top: 0px;
+      background: transparent; }
+    @media only screen and (max-width: 479px) {
+      .block-our-shops-main .container-list {
+        background: transparent; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      .block-our-shops-main .container-list {
+        background: transparent; } }
+    @media only screen and (min-width: 768px) and (max-width: 849px) {
+      .block-our-shops-main .container-list {
+        background: transparent; } }
+    @media only screen and (min-width: 850px) and (max-width: 990px) {
+      .block-our-shops-main .container-list {
+        background: transparent; } }
+    .block-our-shops-main .container-list h3 {
+      margin: 0px;
+      letter-spacing: 10px;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 30px;
+      color: #FFF; }
+    .block-our-shops-main .container-list p {
+      margin: 0px;
+      text-align: center;
+      font-size: 22px;
+      color: #FFF; }
+    .block-our-shops-main .container-list a {
+      margin: 0px;
+      text-align: center;
+      font-size: 22px;
+      color: #FFF; }
+      .block-our-shops-main .container-list a:hover {
+        text-decoration: underline !important; }
+
 @media only screen and (max-width: 479px) {
   .block-latest-post {
     padding-top: 30px; } }

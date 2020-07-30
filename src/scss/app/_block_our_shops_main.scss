@@ -1,0 +1,170 @@
+.block-our-shops-main {
+    padding: 40px 0px;
+    background: #FF8A26 url('../img/bg-block-our-shops.png') top left / cover no-repeat;
+
+    .container-title {
+        padding: 0px 15px;
+
+        h2 {
+            margin: 0px;
+            text-align: center;
+            letter-spacing: 10px;
+            font-weight: 700;
+            font-size: 30px;
+            color: #ff8a26;
+
+            // Breakpoints
+            @include respond-to($phone) {
+                margin-bottom: 30px;
+                color: #FFF;
+            }
+
+            @include respond-to($phone-tablet) {
+                margin-bottom: 30px;
+                color: #FFF;
+            }
+
+            @include respond-to($tablet-medium) {
+                margin-bottom: 30px;
+                color: #FFF;
+            }
+
+            @include respond-to($medium-large) {
+                margin-bottom: 30px;
+                color: #FFF;
+            }
+        }
+
+        a {
+            width: 270px;
+            padding: 15px;
+            text-align: center;
+            color: #FFF;
+            background-color: #ff8a26;
+            -webkit-border-radius: 50px;
+            -moz-border-radius: 50px;
+            border-radius: 50px;
+
+            &:hover {
+                color: #ff8a26;
+                background-color: #FFF;
+            }
+        }
+    }
+
+    .container-list-image {
+        width: 100%;
+        padding: 0px 15px 40px 15px;
+        background: transparent url('../img/bg-line.png') top center / 100% auto no-repeat;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        // Breakpoints
+        @include respond-to($phone) {
+            margin-top: 40px;
+            padding-bottom: 35px;
+            background: transparent;
+        }
+
+        @include respond-to($phone-tablet) {
+            margin-top: 40px;
+            padding-bottom: 35px;
+            background: transparent;
+        }
+
+        @include respond-to($tablet-medium) {
+            margin-top: 40px;
+            padding-bottom: 35px;
+            background: transparent;
+        }
+
+        @include respond-to($medium-large) {
+            margin-top: 40px;
+            padding-bottom: 35px;
+            background: transparent;
+        }
+
+        .img-fluid {
+            margin: -75px 0px 0px 0px;
+
+            // Breakpoints
+            @include respond-to($phone) {
+                margin: 0px;
+            }
+
+            @include respond-to($phone-tablet) {
+                margin: 0px;
+            }
+
+            @include respond-to($tablet-medium) {
+                margin: 0px;
+            }
+
+            @include respond-to($medium-large) {
+                margin: 0px;
+            }
+        }
+    }
+
+    .container-list {
+        width: 100%;
+        padding: 20px 15px 15px 15px;
+        text-align: center;
+        background: transparent url('../img/bg-line.png') top center / 100% auto no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &.first-item {
+            padding-top: 0px;
+            background: transparent;
+        }
+
+        // Breakpoints
+        @include respond-to($phone) {
+            background: transparent;
+        }
+
+        @include respond-to($phone-tablet) {
+            background: transparent;
+        }
+
+        @include respond-to($tablet-medium) {
+            background: transparent;
+        }
+
+        @include respond-to($medium-large) {
+            background: transparent;
+        }
+
+        h3 {
+            margin: 0px;
+            letter-spacing: 10px;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 30px;
+            color: #FFF;
+        }
+
+        p {
+            margin: 0px;
+            text-align: center;
+            font-size: 22px;
+            color: #FFF;
+        }
+
+        a {
+            margin: 0px;
+            text-align: center;
+            font-size: 22px;
+            color: #FFF;
+
+            &:hover {
+                text-decoration: underline !important;
+            }
+        }
+    }
+}
