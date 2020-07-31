@@ -12790,7 +12790,8 @@ header {
 footer {
   margin-top: -150px;
   padding: 80px 0px 70px 0px;
-  background: transparent url("../img/bg-footer.png") top center/100% 100% no-repeat; }
+  background: transparent url("../img/bg-footer.png") top center/100% 100% no-repeat;
+  z-index: 9; }
   @media only screen and (max-width: 479px) {
     footer {
       margin-top: 30px;
@@ -12890,6 +12891,22 @@ footer {
     footer .btn-primary:hover {
       background-color: #FFF;
       color: #020A56; }
+  @media only screen and (max-width: 479px) {
+    footer .img-fluid {
+      width: 100%;
+      max-width: 350px; } }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    footer .img-fluid {
+      width: 100%;
+      max-width: 350px; } }
+  @media only screen and (min-width: 768px) and (max-width: 849px) {
+    footer .img-fluid {
+      width: 100%;
+      max-width: 350px; } }
+  @media only screen and (min-width: 850px) and (max-width: 990px) {
+    footer .img-fluid {
+      width: 100%;
+      max-width: 350px; } }
 
 .block-banner-main {
   height: 380px;
@@ -13522,6 +13539,81 @@ footer {
     color: #020a56; }
   .block-glasses-title .img-fluid {
     margin-top: 15px; }
+
+.block-glasses-brands {
+  padding-bottom: 100px; }
+  @media only screen and (max-width: 479px) {
+    .block-glasses-brands {
+      padding-bottom: 60px; } }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .block-glasses-brands {
+      padding-bottom: 60px; } }
+  @media only screen and (min-width: 768px) and (max-width: 849px) {
+    .block-glasses-brands {
+      padding-bottom: 60px; } }
+  @media only screen and (min-width: 850px) and (max-width: 990px) {
+    .block-glasses-brands {
+      padding-bottom: 60px; } }
+  .block-glasses-brands .container-brands {
+    height: 100%;
+    padding-right: 30px; }
+    @media only screen and (max-width: 479px) {
+      .block-glasses-brands .container-brands {
+        padding-right: 0px; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      .block-glasses-brands .container-brands {
+        padding-right: 0px; } }
+    @media only screen and (min-width: 768px) and (max-width: 849px) {
+      .block-glasses-brands .container-brands {
+        padding-right: 0px; } }
+    @media only screen and (min-width: 850px) and (max-width: 990px) {
+      .block-glasses-brands .container-brands {
+        padding-right: 0px; } }
+    .block-glasses-brands .container-brands .img-fluid {
+      width: 80px; }
+  .block-glasses-brands .container-border {
+    padding: 20px 0px 20px 60px;
+    border-left: 2px solid #00379E;
+    text-align: center; }
+    @media only screen and (max-width: 479px) {
+      .block-glasses-brands .container-border {
+        margin-top: 15px;
+        padding: 0px;
+        border-left: none; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      .block-glasses-brands .container-border {
+        margin-top: 15px;
+        padding: 0px;
+        border-left: none; } }
+    @media only screen and (min-width: 768px) and (max-width: 849px) {
+      .block-glasses-brands .container-border {
+        margin-top: 15px;
+        padding: 0px;
+        border-left: none; } }
+    @media only screen and (min-width: 850px) and (max-width: 990px) {
+      .block-glasses-brands .container-border {
+        margin-top: 15px;
+        padding: 0px;
+        border-left: none; } }
+    .block-glasses-brands .container-border .img-fluid {
+      width: 193px; }
+  .block-glasses-brands p {
+    margin: 90px 0px 0px 0px;
+    text-align: center;
+    font-size: 30px;
+    color: #000; }
+    @media only screen and (max-width: 479px) {
+      .block-glasses-brands p {
+        margin-top: 30px; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      .block-glasses-brands p {
+        margin-top: 30px; } }
+    @media only screen and (min-width: 768px) and (max-width: 849px) {
+      .block-glasses-brands p {
+        margin-top: 30px; } }
+    @media only screen and (min-width: 850px) and (max-width: 990px) {
+      .block-glasses-brands p {
+        margin-top: 30px; } }
 
 
 /*# sourceMappingURL=bundle.min.css.map*/

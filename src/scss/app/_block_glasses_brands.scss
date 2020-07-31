@@ -1,0 +1,105 @@
+.block-glasses-brands {
+    padding-bottom: 100px;
+
+    // Breakpoints
+    @include respond-to($phone) {
+        padding-bottom: 60px;
+    }
+
+    @include respond-to($phone-tablet) {
+        padding-bottom: 60px;
+    }
+
+    @include respond-to($tablet-medium) {
+        padding-bottom: 60px;
+    }
+
+    @include respond-to($medium-large) {
+        padding-bottom: 60px;
+    }
+
+    .container-brands {
+        height: 100%;
+        padding-right: 30px;
+
+        // Breakpoints
+        @include respond-to($phone) {
+            padding-right: 0px;
+        }
+
+        @include respond-to($phone-tablet) {
+            padding-right: 0px;
+        }
+
+        @include respond-to($tablet-medium) {
+            padding-right: 0px;
+        }
+
+        @include respond-to($medium-large) {
+            padding-right: 0px;
+        }
+
+        .img-fluid {
+            width: 80px;
+        }
+    }
+
+    .container-border {
+        padding: 20px 0px 20px 60px;
+        border-left: 2px solid #00379E;
+        text-align: center;
+
+        // Breakpoints
+        @include respond-to($phone) {
+        	margin-top: 15px;
+            padding: 0px;
+            border-left: none;
+        }
+
+        @include respond-to($phone-tablet) {
+        	margin-top: 15px;
+            padding: 0px;
+            border-left: none;
+        }
+
+        @include respond-to($tablet-medium) {
+        	margin-top: 15px;
+            padding: 0px;
+            border-left: none;
+        }
+
+        @include respond-to($medium-large) {
+        	margin-top: 15px;
+            padding: 0px;
+            border-left: none;
+        }
+
+        .img-fluid {
+            width: 193px;
+        }
+    }
+
+    p {
+        margin: 90px 0px 0px 0px;
+        text-align: center;
+        font-size: 30px;
+        color: #000;
+
+        // Breakpoints
+        @include respond-to($phone) {
+            margin-top: 30px;
+        }
+
+        @include respond-to($phone-tablet) {
+            margin-top: 30px;
+        }
+
+        @include respond-to($tablet-medium) {
+            margin-top: 30px;
+        }
+
+        @include respond-to($medium-large) {
+            margin-top: 30px;
+        }
+    }
+}

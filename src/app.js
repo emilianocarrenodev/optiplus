@@ -43,5 +43,14 @@ if ($.contains(document.body, document.getElementById('block-glasses-list'))) {
     });
 }
 
+/*Script scroll*/
+$(document).on('click', '.btn-scrollTop', function(event) {
+    event.preventDefault();
+
+    var item = $(this).data('item');
+
+    $('body,html').animate({ scrollTop: $(item).offset().top - 50 }, 3000, 'swing');
+});
+
 /*Se agregan las animaciones para toda la pagina que no cargan de menera recurrente*/
 wow.init();
