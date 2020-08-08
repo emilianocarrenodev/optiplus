@@ -13481,8 +13481,8 @@ footer {
         width: 100%;
         height: 150px;
         background-color: #FFF;
-        background-size: cover;
-        background-position: no-repeat;
+        background-size: contain;
+        background-repeat: no-repeat;
         background-position: center center; }
       .block-glasses-list .card .container-slider .btn-swiper-main {
         height: 35px;
