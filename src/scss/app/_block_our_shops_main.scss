@@ -142,24 +142,29 @@
 
         h3 {
             margin: 0px;
-            letter-spacing: 10px;
             text-align: center;
             text-transform: uppercase;
-            font-size: 30px;
+            letter-spacing: 10px;
+            font-weight: 700;
+            font-size: 22px;
             color: #FFF;
         }
 
         p {
             margin: 0px;
             text-align: center;
-            font-size: 22px;
+            letter-spacing: 5px;
+            font-weight: 600;
+            font-size: 18px;
             color: #FFF;
         }
 
         a {
             margin: 0px;
             text-align: center;
-            font-size: 22px;
+            letter-spacing: 5px;
+            font-weight: 600;
+            font-size: 18px;
             color: #FFF;
 
             &:hover {

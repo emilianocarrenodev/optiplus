@@ -42,16 +42,17 @@ $('footer').load("footer.html", function() {
 
                 var obj = JSON.parse(data);
 
+                $('.alert').hide();
                 $('#form-contact .btn-primary').prop('disabled', false);
 
                 if (obj.alert == 'valid') {
-
-                    $('.section-form').hide();
-                    $('.section-form.item-2').fadeIn();
-
+                    $('.alert-success').fadeIn();
+                    $("#form-contact")[0].reset();
                 } else {
                     $('.alert-danger').fadeIn();
                 }
+
+                setTimeout(function() { $('.alert').hide(); }, 5000);
             }
         });
     });

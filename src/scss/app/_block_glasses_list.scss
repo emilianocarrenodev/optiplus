@@ -1,7 +1,8 @@
 .block-glasses-list {
     margin-top: -250px;
     padding: 0px 0px 100px 0px;
-    background: transparent url('../img/bg-glasses-list.png') center 130px / 100% auto no-repeat;
+    //background: transparent url('../img/bg-glasses-list.png') center 130px / 100% auto no-repeat;
+    background-color: transparent;
 
     // Breakpoints
     @include respond-to($phone) {
