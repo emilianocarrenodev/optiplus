@@ -1,4 +1,5 @@
 .block-latest-post {
+    background-color: #FFF;
 
     // Breakpoints
     @include respond-to($phone) {
