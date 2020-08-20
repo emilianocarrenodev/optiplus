@@ -50,6 +50,10 @@ header {
 
         .navbar-brand {
             padding: 0px;
+
+            .img-fluid {
+                max-width: 170px;
+            }
         }
 
         .navbar-toggler {

@@ -2,7 +2,7 @@
     height: 380px;
     margin-top: 46px;
     background-color: #FFF;
-    background-size: auto auto, auto 100%;
+    background-size: 400px auto, auto 100%;
     background-repeat: no-repeat, no-repeat;
     background-position: center center, top left;
     background-image: url('../img/logo.png'), url('../img/img-banner.png');
@@ -11,13 +11,13 @@
     @include respond-to($phone) {
         height: 200px;
         margin-top: 69px;
-        background: #FFF url('../img/logo.png') center center / auto auto no-repeat;
+        background: #FFF url('../img/logo.png') center center / 250px auto no-repeat;
     }
 
     @include respond-to($phone-tablet) {
         height: 200px;
         margin-top: 69px;
-        background: #FFF url('../img/logo.png') center center / auto auto no-repeat;
+        background: #FFF url('../img/logo.png') center center / 250px auto no-repeat;
     }
 
     @include respond-to($tablet-medium) {

@@ -167,6 +167,11 @@
             font-size: 18px;
             color: #FFF;
 
+            // Breakpoints
+            @include respond-to($phone) {
+                letter-spacing: 1px;
+            }
+
             &:hover {
                 text-decoration: underline !important;
             }
