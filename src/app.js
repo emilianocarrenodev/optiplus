@@ -94,5 +94,29 @@ $(document).on('click', '.btn-scrollTop', function(event) {
     $('body,html').animate({ scrollTop: $(item).offset().top - 50 }, 3000, 'swing');
 });
 
+
+/*Script filtros*/
+var value_type = 0;
+var value_gender = 0;
+$(".select-filter").on('change', function(event) {
+    event.preventDefault();
+
+    var select = $(this).data('select');
+
+    if (select == 0) {
+        value_gender = $(this).val();
+    } else {
+        value_type = $(this).val();
+    }
+
+    $(".filter-options").hide();
+    $(".filter-type-" + value_type).fadeIn();
+    $(".filter-gender-" + value_gender).fadeIn();
+
+    if (value_gender == 0 && value_type == 0) {
+        $(".filter-options").fadeIn();
+    }
+});
+
 /*Se agregan las animaciones para toda la pagina que no cargan de menera recurrente*/
 wow.init();
