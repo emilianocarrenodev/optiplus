@@ -1,29 +1,31 @@
 {
-  "name": "blanco-e-hijos",
+  "name": "optiplusve",
   "version": "1.0.0",
   "description": "Entorno base",
   "main": "webpack.config.js",
   "scripts": {
-    "prod": "webpack --config webpack.config.js -p",
-    "start": "webpack-dev-server --config webpack.config.js -d",
-    "dev": "webpack -w"
+    "prod": "webpack --config webpack.config.prod.js",
+    "start": "webpack serve --open",
+    "dev": "webpack --watch"
   },
   "keywords": [],
   "author": "Emiliano carreño",
   "license": "UNLICENSED",
   "devDependencies": {
-    "@babel/core": "^7.8.6",
-    "@babel/preset-env": "^7.8.6",
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "css-minimizer-webpack-plugin": "^3.4.1",
+    "mini-css-extract-plugin": "^2.5.3",
+    "node-sass": "^7.0.1",
+    "sass": "^1.49.0",
+    "sass-loader": "^12.4.0",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.3",
     "autoprefixer": "^9.7.4",
-    "babel-loader": "^8.0.6",
-    "css-loader": "^2.1.1",
-    "mini-css-extract-plugin": "^0.5.0",
-    "node-sass": "^4.13.1",
-    "postcss-loader": "^3.0.0",
-    "sass-loader": "^7.1.0",
-    "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.10.3"
+    "postcss-loader": "^3.0.0"
   },
   "dependencies": {
     "animate.css": "^3.7.2",
@@ -35,8 +37,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:emiliano0662/blanco-e-hijos.git"
+    "url": "git+ssh://git@github.com:emiliano0662/optiplusve.git"
   },
-  "homepage": "https://github.com/emiliano0662/blanco-e-hijos#readme",
+  "homepage": "https://github.com/emiliano0662/optiplusve#readme",
   "optionalDependencies": {}
 }
