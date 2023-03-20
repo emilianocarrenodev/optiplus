@@ -14,7 +14,7 @@ var wow = new WOW({
 
 /*Instagram*/
 var feed = new Instafeed({
-    accessToken: 'IGQVJWcUFBd1hEMTh0STNkWGw1c2daM2lsQ29TUmJSel9NSFNFRGhKNFRqYnktLVhVMDMwSkhJYktLSS0zRHV2U2s4cnBMQTdPQy1TZAEM1R2RiXzQ2RGZAoaGViY2c4NWp1UHZAwV2NYQk9QYjJkQUhFRwZDZD',
+    accessToken: '',
     target: 'instafeed',
     limit: 3,
     template: "<div class=\"col-12 col-lg-4\"><div class=\"container-image\"><a href=\"{{link}}\" target=\"_blank\"><div class=\"bg-image\" style=\"background-image: url('{{image}}');\"></div><h3>{{caption}}</h3></div></a></div>",
